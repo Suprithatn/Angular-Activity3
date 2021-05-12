@@ -1,0 +1,6 @@
+<h2 class="text text-danger">Hyderabad Users</h2>
+<div *ngFor="let user of users">
+    <div *ngIf="user.location == 'Hyderabad'">
+        {{user.name}}
+    </div>
+</div>
